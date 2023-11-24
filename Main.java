@@ -10,6 +10,7 @@ public class Main {
         cl.nhap();
         Suplier_List l = new Suplier_List("file/Suplier_list.txt");
         l.nhap();
+        //hello
         
 
     while(true){
