@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Staff_List sl = new Staff_List("D:/HocTap/Nam2/HK1/LapTrinhHuongDoiTuong/Store.txt/Staff_List.txt"); // ve may ve copy lai sau
+        Staff_List sl = new Staff_List("file/Staff_list.txt"); // ve may ve copy lai sau
     	sl.nhap();
-        Customer_List cl = new Customer_List("D:/HocTap/Nam2/HK1/LapTrinhHuongDoiTuong/Store.txt/Customer_List.txt");
+        Customer_List cl = new Customer_List("file/Customer_list.txt");
         cl.nhap();
 
     while(true){

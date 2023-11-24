@@ -6,8 +6,8 @@ public class Customer extends People {
         maKhachHang = "";
     }
     
-	public Customer(String hoTen, String diaChi, String soDienThoai,String maKhachHang) {
-		super(hoTen, diaChi, soDienThoai);
+	public Customer(String hoTen, String diaChi, String soDienThoai, double thoiGianLam, String maKhachHang) {
+		super(hoTen, diaChi, soDienThoai, thoiGianLam);
 		this.maKhachHang = maKhachHang;
 	}
 	
@@ -17,6 +17,11 @@ public class Customer extends People {
 
     public void setMaKhachHang(String maKhachHang) {
         this.maKhachHang = maKhachHang;
+    }
+
+    public double TinhLuong()
+    {
+        return 0;
     }
 
     public void xuat() {

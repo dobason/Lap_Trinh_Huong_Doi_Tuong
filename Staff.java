@@ -7,8 +7,8 @@ public class Staff extends People {
         maSoNhanVien = " ";
     }
     
-	public Staff(String hoTen, String diaChi, String soDienThoai,String maSoNhanVien) {
-		 super(hoTen, diaChi, soDienThoai);
+	public Staff(String hoTen, String diaChi, String soDienThoai, double thoiGianLam, String maSoNhanVien) {
+		 super(hoTen, diaChi, soDienThoai, thoiGianLam);
 		 this.maSoNhanVien = maSoNhanVien;
 	}
 	 
@@ -20,11 +20,16 @@ public class Staff extends People {
         this.maSoNhanVien = maSoNhanVien;
     }
 
+    public double TinhLuong()
+    {
+        return getThoiGianLam() * 30000;
+    }
+
     public void xuat(){
         super.xuat();
         System.out.println("Ma so nhan vien: "+maSoNhanVien);
     }
 
-    /* hhhhh */
+    
 
 }

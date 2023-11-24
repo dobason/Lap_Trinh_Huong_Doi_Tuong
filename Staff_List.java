@@ -52,7 +52,7 @@ import java.util.Scanner;
         String soDienThoai = sc.nextLine();
         System.out.println("Them ma so nhan vien: ");
         String maSoNhanVien = sc.nextLine();
-        Staff sl = new Staff(hoTen,diaChi, soDienThoai, maSoNhanVien);
+        Staff sl = new Staff(hoTen,diaChi, soDienThoai, thoiGianLam, maSoNhanVien);
         this.sl.add(sl);
     }
     
