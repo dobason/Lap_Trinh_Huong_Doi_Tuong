@@ -30,6 +30,6 @@ public class Staff extends People {
         System.out.println("Ma so nhan vien: "+maSoNhanVien);
     }
 
-    
+    /* hhhhh */
 
 }

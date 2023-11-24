@@ -8,6 +8,8 @@ public class Main {
     	sl.nhap();
         Customer_List cl = new Customer_List("file/Customer_list.txt");
         cl.nhap();
+        Suplier_List l = new Suplier_List("D:/HocTap/Nam2/HK1/Project_Java/Suplier_List.txt");
+        l.nhap();
 
     while(true){
         System.out.println("<========================== KHO HANG ========================>");
@@ -37,10 +39,12 @@ public class Main {
                 }
         		break;
         	case "2":
+                System.out.println("==============Danh sach khach hang==============");
         		cl.xuat();
         		break;
         	case "3":
-        		
+        		System.out.println("==============Danh sach nha cung cap==============");
+                l.xuat();
         		break;
         	case "4":
         
