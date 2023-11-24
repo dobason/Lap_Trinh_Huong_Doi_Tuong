@@ -4,7 +4,7 @@ import java.util.Scanner;
 
     class Suplier_List implements IOutput
     {
-        private List<Staff> l;
+        private List<Suplier> l;
         public String path;
 	
     public Suplier_List()
@@ -24,7 +24,7 @@ import java.util.Scanner;
 		int len = duLieu.size();
 		for (int i = 0; i < len; i++) {
 			String[] row = duLieu.get(i).split("_");
-			Staff item = new Staff(
+			Suplier item = new Suplier(
 				row[0],
                 row[1],
                 row[2],
@@ -40,7 +40,7 @@ import java.util.Scanner;
 		int len = l.size();
 		for(int i = 0;i<len;i++) 
         {
-			Staff item = l.get(i);
+			Suplier item = l.get(i);
 			item.xuat();
 		}
 	}

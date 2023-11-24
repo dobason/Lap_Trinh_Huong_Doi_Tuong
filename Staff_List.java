@@ -26,7 +26,7 @@ import java.util.Scanner;
                 row[1],
                 row[2],
                 row[3]
-				);
+			);
 			this.sl.add(item);
 	     }
 	}
@@ -52,7 +52,7 @@ import java.util.Scanner;
         String soDienThoai = sc.nextLine();
         System.out.println("Them ma so nhan vien: ");
         String maSoNhanVien = sc.nextLine();
-        Staff sl = new Staff(hoTen,diaChi, soDienThoai, thoiGianLam, maSoNhanVien);
+        Staff sl = new Staff(hoTen,diaChi, soDienThoai, maSoNhanVien);
         this.sl.add(sl);
     }
     

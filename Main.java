@@ -6,10 +6,11 @@ public class Main {
 
         Staff_List sl = new Staff_List("file/Staff_list.txt"); // ve may ve copy lai sau
     	sl.nhap();
-        Customer_List cl = new Customer_List("file/Customer_list.txt");
+        Customer_List cl = new Customer_List("file/Customer.txt");
         cl.nhap();
-        Suplier_List l = new Suplier_List("D:/HocTap/Nam2/HK1/Project_Java/Suplier_List.txt");
+        Suplier_List l = new Suplier_List("file/Suplier_list.txt");
         l.nhap();
+        
 
     while(true){
         System.out.println("<========================== KHO HANG ========================>");

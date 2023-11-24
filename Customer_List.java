@@ -1,8 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
     class Customer_List implements IOutput {
-	private List<Staff> cl;
+	private List<Customer> cl;
 	public String path;
 	
     public Customer_List(){
@@ -20,7 +21,7 @@ import java.util.List;
 		int len = duLieu.size();
 		for (int i = 0; i < len; i++) {
 			String[] row = duLieu.get(i).split("_");
-			Staff item = new Staff(
+			Customer item = new Customer(
 				row[0],
                 row[1],
                 row[2],
@@ -34,7 +35,7 @@ import java.util.List;
 	public void xuat() {
 		int len = cl.size();
 		for(int i = 0;i<len;i++) {
-			Staff item = cl.get(i);
+			Customer item = cl.get(i);
 			item.xuat();
 		}
 	}
